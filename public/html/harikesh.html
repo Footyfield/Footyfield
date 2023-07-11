@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footyfield | Home</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/teamManagement.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="navbar-container">
+            <a href="#" class="logo">Footyfield</a>
+            <ul class="nav-links">
+                <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="../html/harikesh.html"><i class="fa-solid fa-people-group"></i> Team Management</a></li>
+                <li><a href="#"><i class="fa-solid fa-star"></i> Player Stats</a></li>
+                <li><a href="#"><i class="fa-solid fa-circle-info"></i> About Us</a></li>
+            </ul>
+        </div>
+        <button type="button" class="sign" id="sign"><a href="/">Sign Out</a></button>
+    </nav>
+
+    <div class="main-container">
+        <div class="playerListSection">
+            <div class="topSection">
+                <input type="text" class="searchPlayer" id="searchPlayer" placeholder="Search player..."
+                    onkeyup="search()">
+            </div>
+
+            <div class="bottomSection" id="bottomSection">
+                <div class="patPlayer">
+                    <p>Thibaut Courtois</p>
+                    <button type="button" class="submitBtn" data-id="0">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Dani Carvajal</p>
+                    <button type="button" class="submitBtn" data-id="1">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Éder Militão</p>
+                    <button type="button" class="submitBtn" data-id="2">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Sergio Ramos</p>
+                    <button type="button" class="submitBtn" data-id="3">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Cristiano Ronaldo</p>
+                    <button type="button" class="submitBtn" data-id="4">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Ferland Mendy</p>
+                    <button type="button" class="submitBtn" data-id="5">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Casemiro</p>
+                    <button type="button" class="submitBtn" data-id="6">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Toni Kroos</p>
+                    <button type="button" class="submitBtn" data-id="7">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Luka Modrić</p>
+                    <button type="button" class="submitBtn" data-id="8">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Federico Valverde</p>
+                    <button type="button" class="submitBtn" data-id="9">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Marco Asensio</p>
+                    <button type="button" class="submitBtn" data-id="10">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Vinícius Júnior</p>
+                    <button type="button" class="submitBtn" data-id="11">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Karim Benzema</p>
+                    <button type="button" class="submitBtn" data-id="12">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Eden Hazard</p>
+                    <button type="button" class="submitBtn" data-id="13">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Rodrygo Goes</p>
+                    <button type="button" class="submitBtn" data-id="14">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Marcelo Vieira</p>
+                    <button type="button" class="submitBtn" data-id="15">Add</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="addPlayerSection">
+            <h1>Your players</h1>
+            <div class="header">
+                <p>Username: Harikesh Ranjan Sinha</p>
+                <p>Manager: Carlo Ancelotti</p>
+                <p>Your team: Real Madrid</p>
+            </div>
+            <div class="selectedPlayers" id="selectedPlayers">
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="https://kit.fontawesome.com/e6506fb756.js" crossorigin="anonymous"></script>
+<script src="../js/homepage.js"></script>
+
+</html>

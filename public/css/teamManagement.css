@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    font-family: 'Poppins';
+    margin: 0;
+}
+
+.main-container{
+    width: 95%;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-container .playerListSection{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container .playerListSection .topSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-container .playerListSection .topSection input{
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #252525;
+    color: aliceblue;
+    font-size: 1.2rem;
+    padding: 2px 20px;
+}
+
+.main-container .addPlayerSection{
+    position: relative;
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    margin: 0 0 0 -100px;
+    background-color: #252525;
+    border-radius: 5px;
+}
+
+.main-container .addPlayerSection h1{
+    text-align: center;
+    color: aliceblue;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #cccccc83;
+}
+
+.main-container .addPlayerSection .header{
+    margin: 20px 0 0 12px;
+    color: aliceblue;
+}
+
+.main-container .addPlayerSection .selectedPlayers{
+    margin: 20px 10px;
+}
+
+.main-container .addPlayerSection .selectedPlayers .patPlayer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.playerName{
+    padding: 10px 20px;
+    margin: 5px 0;
+    color: aliceblue;
+}
+
+.deleteBtn{
+    width: 100px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: 	#DC143C;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color .25s ease;
+}
+
+.main-container .addPlayerSection .selectedPlayers .patPlayer button:hover{
+    background-color: 	#ab0d2d;
+}
+
+.main-container .playerListSection .bottomSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.main-container .playerListSection .bottomSection .patPlayer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: calc(50% - 20px);
+    margin: 10px 8px;
+    border: 1px solid #008080;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform .25s ease;
+}
+
+.main-container .playerListSection .bottomSection .patPlayer:hover{
+    transform: translateY(-10px);
+}
+
+.main-container .playerListSection .bottomSection .patPlayer p{
+    height: 45px;
+    padding: 10px 0 0 20px;
+    font-size: 1.3rem;
+    color: whitesmoke;
+}
+
+.main-container .playerListSection .bottomSection .patPlayer button{
+    height: 55px;
+    width: 70px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: 	#008080;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color .25s ease;
+}
+
+.main-container .playerListSection .bottomSection .patPlayer button:hover{
+    background-color: #045e5e;
+}

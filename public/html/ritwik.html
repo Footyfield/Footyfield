@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footyfield | Home</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/teamManagement.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="navbar-container">
+            <a href="#" class="logo">Footyfield</a>
+            <ul class="nav-links">
+                <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="../html/teamManagement.html"><i class="fa-solid fa-people-group"></i> Team Management</a>
+                </li>
+                <li><a href="#"><i class="fa-solid fa-star"></i> Player Stats</a></li>
+                <li><a href="#"><i class="fa-solid fa-circle-info"></i> About Us</a></li>
+            </ul>
+        </div>
+        <button type="button" class="sign" id="sign"><a href="/">Sign Out</a></button>
+    </nav>
+
+    <div class="main-container">
+        <div class="playerListSection">
+            <div class="topSection">
+                <input type="text" class="searchPlayer" id="searchPlayer" placeholder="Search player..."
+                    onkeyup="search()">
+            </div>
+
+            <div class="bottomSection" id="bottomSection">
+                <div class="patPlayer">
+                    <p>Marc-André (Goalkeeper)</p>
+                    <button type="button" class="submitBtn" data-id="0">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Jordi Alba (Left-back)</p>
+                    <button type="button" class="submitBtn" data-id="1">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Sergio Busquets (DM)</p>
+                    <button type="button" class="submitBtn" data-id="2">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Pedri (Attacking midfielder)</p>
+                    <button type="button" class="submitBtn" data-id="3">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Frenkie de Jong (Central M)</p>
+                    <button type="button" class="submitBtn" data-id="4">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Gerard Piqué (Centre-back)</p>
+                    <button type="button" class="submitBtn" data-id="5">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Sergiño Dest (Right-back)</p>
+                    <button type="button" class="submitBtn" data-id="6">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Ronald Araújo (Centre-back)</p>
+                    <button type="button" class="submitBtn" data-id="7">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Martin Braithwaite (F)</p>
+                    <button type="button" class="submitBtn" data-id="8">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Antoine Griezmann (F)</p>
+                    <button type="button" class="submitBtn" data-id="9">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Philippe Coutinho (AM)</p>
+                    <button type="button" class="submitBtn" data-id="10">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Miralem Pjanić (CM)</p>
+                    <button type="button" class="submitBtn" data-id="11">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Ansu Fati (Forward)</p>
+                    <button type="button" class="submitBtn" data-id="12">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Ousmane Dembélé (F)</p>
+                    <button type="button" class="submitBtn" data-id="13">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Sergi Roberto (M / RB)</p>
+                    <button type="button" class="submitBtn" data-id="14">Add</button>
+                </div>
+                <div class="patPlayer">
+                    <p>Clément Lenglet (C)</p>
+                    <button type="button" class="submitBtn" data-id="15">Add</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="addPlayerSection">
+            <h1>Your players</h1>
+            <div class="header">
+                <p>Username: Ritwik Mohanty</p>
+                <p>Manager: Xavi</p>
+                <p>Your team: FC Barcelona</p>
+            </div>
+            <div class="selectedPlayers" id="selectedPlayers">
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="https://kit.fontawesome.com/e6506fb756.js" crossorigin="anonymous"></script>
+<script src="../js/homepage.js"></script>
+
+</html>

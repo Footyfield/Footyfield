@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footyfield | SignIn</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/signIn.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="navbar-container">
+            <a href="#" class="logo">Footyfield</a>
+            <ul class="nav-links">
+                <li><a href="/home"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="/"><i class="fa-solid fa-people-group"></i> Team Management</a></li>
+                <li><a href="/stats"><i class="fa-solid fa-star"></i> Player Stats</a></li>
+                <li><a href="/about-us"><i class="fa-solid fa-circle-info"></i> About Us</a></li>
+            </ul>
+        </div>
+        <button type="button" class="sign" id="sign"><a href="/signin">Sign In</a></button>
+
+    </nav>
+
+    <form class="signUp" action="/login" method="POST">
+        <div class="leftSection">
+            <h1>Login to Your Account</h1>
+            <p>Footyfield - Football Team Management System</p>
+            <input type="text" id="username" name="username" placeholder="Username">
+            <input type="password" id="password" name="password" placeholder="Password">
+
+            <div class="remember">
+                <input type="checkbox" id="remember_tick">
+                <label for="remember_tick"> Remember Me</label>
+                <a href="#">Forgot Password?</a>
+            </div>
+            <button type="submit" class="btn-submit" id="btn-submit">Sign In</button>
+            <p class="or"> - OR -</p>
+            <button type="button" class="orSign">Google</button>
+            <button type="button" class="orSign">Apple ID</button>
+            <div class="uselessItems">
+                <a href="#">Privacy Policies</a>
+                <a href="#">Terms and Conditions</a>
+            </div>
+        </div>
+        <div class="rightSection">
+
+        </div>
+    </form>
+</body>
+<script src="https://kit.fontawesome.com/e6506fb756.js" crossorigin="anonymous"></script>
+<script src="../js/homepage.js"></script>
+
+</html>
